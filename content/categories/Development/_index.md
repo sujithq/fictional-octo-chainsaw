@@ -1,5 +1,5 @@
 ---
-title: Example Category
+title: Azure
 description: A description of this category
 image:
 
