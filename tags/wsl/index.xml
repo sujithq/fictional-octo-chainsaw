@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>WSL on Sujith Quintelier</title><link>/fictional-octo-chainsaw/tags/wsl/</link><description>Recent content in WSL on Sujith Quintelier</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 12 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="/fictional-octo-chainsaw/tags/wsl/index.xml" rel="self" type="application/rss+xml"/><item><title>Update, Upgrade and Clean WSL</title><link>/fictional-octo-chainsaw/p/update-upgrade-and-clean-wsl/</link><pubDate>Wed, 12 Feb 2025 00:00:00 +0000</pubDate><guid>/fictional-octo-chainsaw/p/update-upgrade-and-clean-wsl/</guid><description>&lt;img src="/fictional-octo-chainsaw/p/update-upgrade-and-clean-wsl/cover.jpg" alt="Featured image of post Update, Upgrade and Clean WSL" />&lt;p>When you are using WSL, once in a while you get this message at start up stating your environment is out of date:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
+&lt;/span>&lt;span class="lnt"> 2
+&lt;/span>&lt;span class="lnt"> 3
+&lt;/span>&lt;span class="lnt"> 4
+&lt;/span>&lt;span class="lnt"> 5
+&lt;/span>&lt;span class="lnt"> 6
+&lt;/span>&lt;span class="lnt"> 7
+&lt;/span>&lt;span class="lnt"> 8
+&lt;/span>&lt;span class="lnt"> 9
+&lt;/span>&lt;span class="lnt">10
+&lt;/span>&lt;span class="lnt">11
+&lt;/span>&lt;span class="lnt">12
+&lt;/span>&lt;span class="lnt">13
+&lt;/span>&lt;span class="lnt">14
+&lt;/span>&lt;span class="lnt">15
+&lt;/span>&lt;span class="lnt">16
+&lt;/span>&lt;span class="lnt">17
+&lt;/span>&lt;span class="lnt">18
+&lt;/span>&lt;span class="lnt">19
+&lt;/span>&lt;span class="lnt">20
+&lt;/span>&lt;span class="lnt">21
+&lt;/span>&lt;span class="lnt">22
+&lt;/span>&lt;span class="lnt">23
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-text" data-lang="text">&lt;span class="line">&lt;span class="cl">Welcome to Ubuntu 20.04.4 LTS (GNU/Linux 5.10.102.1-microsoft-standard-WSL2 x86_64)
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> * Documentation: https://help.ubuntu.com
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> * Management: https://landscape.canonical.com
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> * Support: https://ubuntu.com/advantage
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> System information as of Thu Apr 28 08:26:12 CEST 2022
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> System load: 0.0 Processes: 8
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> Usage of /: 11.0% of 250.98GB Users logged in: 0
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> Memory usage: 1% IPv4 address for eth0: 172.31.68.164
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> Swap usage: 0%
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">0 updates can be applied immediately.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">The list of available updates is more than a week old.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">To check for new updates run: sudo apt update
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">This message is shown once a day. To disable it please create the
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">/home/&amp;lt;username&amp;gt;/.hushlogin file.
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>You could run this set of commands or this one line to update your WSL&lt;/p>
+&lt;p>Set&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">sudo apt-get update -y
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">sudo apt-get upgrade -y
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">sudo apt-get autoremove -y
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">sudo apt-get clean -y
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>One line&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">sudo apt-get update -y &lt;span class="o">&amp;amp;&amp;amp;&lt;/span> sudo apt-get upgrade -y &lt;span class="o">&amp;amp;&amp;amp;&lt;/span> sudo apt-get autoremove -y &lt;span class="o">&amp;amp;&amp;amp;&lt;/span> sudo apt-get clean -y
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>You can actually create a script &lt;strong>wsl-update.sh&lt;/strong> in the user&amp;rsquo;s root folder and just execute it using &lt;code>sh ~/wsl-update.sh&lt;/code>&lt;/p>
+&lt;p>Use this script to create wsl-update.sh and make it executable.&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">cat &lt;span class="s">&amp;lt;&amp;lt;EOT &amp;gt;&amp;gt; ~/wsl-update.sh
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s">#!/bin/sh
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s">sudo apt-get update -y &amp;amp;&amp;amp; sudo apt-get upgrade -y &amp;amp;&amp;amp; sudo apt-get autoremove -y &amp;amp;&amp;amp; sudo apt-get clean -y
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s">EOT&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">chmod +X ~/wsl-update.sh
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div></description></item></channel></rss>
