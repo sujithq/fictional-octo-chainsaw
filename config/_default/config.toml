@@ -1,5 +1,4 @@
 # Change baseurl before deploy
-#baseurl = "https://demo.stack.jimmycai.com"
 baseurl = "/fictional-octo-chainsaw"
 languageCode = "en-us"
 title = "Sujith Quintelier"
