@@ -2,7 +2,7 @@
 baseurl = "/fictional-octo-chainsaw"
 languageCode = "en-us"
 title = "Sujith Quintelier"
-favicon = static/favicon.png
+favicon = "static/favicon.png"
 # Theme i18n support
 # Available values: en, fr, id, ja, ko, pt-br, zh-cn, zh-tw, es, de, nl, it, th, el, uk, ar
 defaultContentLanguage = "en"
