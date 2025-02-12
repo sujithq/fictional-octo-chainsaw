@@ -9,6 +9,8 @@ menu:
             icon: resume
 ---
 
+## Bio
+
 Sujith brings more than 24 years of IT experience, combined with excellent communication and presentation skills. He is an efficient, analytical, positive thinking professional who has successfully demonstrated the ability of understanding business requirements, specifying systems, developing working software and designing Azure solutions.
 
 As a certified **Azure Solutions Architect** he demonstrates skills and knowledge to advise stakeholders and translate business requirements into secure, scalable, and reliable solutions. He has advanced experience and knowledge across various aspects of IT operations, including networking, virtualization, identity, security, business continuity, disaster recovery, data management, budgeting, and governance. He also understands how managing decisions in each area affect an overall solution.
@@ -58,3 +60,31 @@ As **Lead developer**, he has carried the full weight of software development in
 As an **AWS Cloud Quest Cloud Practitioner** he has demonstrated basic solution building knowledge using AWS services and has a fundamental understanding of AWS Cloud concepts. He has acquired hands-on experience with compute, networking, database and security services.
 
 He is an excellent team player, capable of working under pressure and without supervision. He is well organized, self-motivated, and has demonstrated important skills in dealing with issues and resolving them prior to becoming problems. He is an easy learning person used to acquire new knowledge about customer systems, standards, tools and trends. He is eager to learn new technologies and is continuously extending his knowledge.
+
+### Interests
+
+- Azure
+- Dev(Sec)Ops
+- GitHub
+- Kubernetes
+- IaC(Terraform, Bicep)
+- Security
+- NOSQL
+- Programming Languages
+- Application Development
+- .NET
+- Architecture
+- AI
+- ML
+- Cognitive Services
+
+### Education
+
+Applied Informatics, 2000
+👨‍🎓 Karel de Grote Hogeschool
+
+All Weapons, 1997
+👨‍🎓 Voorbereidende Divisie Koninklijke Militaire School
+
+Economics-Mathematics, 1996
+👨‍🎓Koninklijk Atheneum Lokeren
