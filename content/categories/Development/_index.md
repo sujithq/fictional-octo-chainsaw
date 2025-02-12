@@ -1,10 +1,10 @@
 ---
-title: Azure
-description: A description of this category
+title: Development
+description: Insights into software development, best practices, and coding techniques.
 image:
 
 # Badge style
 style:
-    background: "#2a9d8f"
+    background: "#efac35"
     color: "#fff"
 ---
